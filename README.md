@@ -18,6 +18,11 @@
 
 * 将本地仓库提交到远程仓库`git push origin 分支名`
 
-* 拉取远程分支`git fetch origin 分支名`
+* 待考证：
+    拉取远程分支`git fetch origin 分支名`
+    拉取全部分支`git fetch`
 
-* 拉取全部分支`git fetch`
+* 使用远程分支创建本地分支
+  * `git fetch`
+  
+  * `git checkout -b 分支名(A) origin/分支名(A)`
